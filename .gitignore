@@ -1,0 +1,31 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Files the tool writes when you try the README examples
+/*.enc.txt
+/*.dec.txt
+
+# Editors and local tooling
+.vscode/
+.idea/
+.claude/
+graphify-out/
+
+# Operating system files
+Thumbs.db
+desktop.ini
+.DS_Store
