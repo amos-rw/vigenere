@@ -25,6 +25,9 @@ htmlcov/
 .claude/
 graphify-out/
 
+# Word lock files
+~$*
+
 # Operating system files
 Thumbs.db
 desktop.ini

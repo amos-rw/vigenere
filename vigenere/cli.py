@@ -165,7 +165,8 @@ def convert(text, key, decrypting=False):
 def menu():
     console.print(Panel(Text.assemble(("Vigenère Cipher", "bold"),
                                       ("  encrypt and decrypt\n", "dim"),
-                                      (f"{FORMULA}\n{DECRYPT_FORMULA}", "cyan")),
+                                      ("\nDone By Amos & Manzi", "green"),
+                                      (f"\n\n{FORMULA}\n{DECRYPT_FORMULA}", "cyan")),
                         border_style="cyan", expand=False, padding=(0, 2)))
     last_key = None
     while True:

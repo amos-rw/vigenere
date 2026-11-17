@@ -96,13 +96,13 @@ Here the wrap goes the other way. In row 4, T (19) - V (21) = -2, which wraps to
 
 Both options read a UTF-8 text file, show the result, and offer to save it under a new name. The tool refuses to overwrite the file it read from.
 
-![Encrypting samples/hello.txt with the key PRIVATE](docs/images/encrypt-file.png)
+Below is a full round trip: `samples/hello.txt` is encrypted with the key `PRIVATE` and saved to a new file, then option 4 decrypts that file with the same key and gives `HELLO` back.
 
-Two sample files are included in [samples/](samples/), with their keys listed in [samples/README.txt](samples/README.txt).
+![Encrypting a file, saving it, and decrypting it again](docs/images/file-roundtrip.png)
 
-> **Use the same key both ways.** A different key still produces letters, but not the original message. Below, `samples/hello.enc.txt` was encrypted with `KEY` and is being decrypted with `PRIVATE`, so the result is `CRBAS` instead of `HELLO`.
->
-> ![Decrypting with the wrong key gives CRBAS](docs/images/wrong-key.png)
+Sample files are included in [samples/](samples/), with their keys listed in [samples/README.txt](samples/README.txt).
+
+> **Use the same key both ways.** A different key still produces letters, but not the original message.
 
 ### 5. Alphabet table
 
